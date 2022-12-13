@@ -1,5 +1,5 @@
 package com.skyshopaucion.models;
 
-public class user {
+public class User {
 
 }
