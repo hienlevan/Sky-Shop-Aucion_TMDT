@@ -28,6 +28,12 @@
 				</a>
 			</div>
 			<div class="header__primary-content">
+				<i class="fa-solid fa-cart-shopping"></i> <a href="./Login.html"
+					class="header-link">
+					<p class="header__title">My Cart</p>
+				</a>
+			</div>
+			<div class="header__primary-content">
 
 				<i class="header__icon fa-regular fa-user"></i> <a
 					href="./Login.html" class="header-link">
@@ -95,11 +101,8 @@
 					<div class="DetailProduct_infor">
 						<div class="DetailProduct_contentphone">
 							Loại sản phẩm: Công nghệ </br> Nhà sản xuất: Apple </br> Màu sắc: Màu đen </br>
-							Thông số kỹ thuật: Ram 4GB, Rom 64GB </br> Tình trạng: 99% </br>
-							<button class="DetailProduct_diferrence">
-								<b>Xem các sản phẩm khác</b>
-							</button>
-
+							Thông số kỹ thuật: Ram 4GB, Rom 64GB </br> Tình trạng: 99% </br> <a href=""
+								class="DetailProduct_diferrence"> Xem các sản phẩm khác </a>
 						</div>
 						<div class="DetailProduct_confirm">
 							Số lượng hiện có: 1 </br> Giá cao nhất hiện tại: 1000$ </br> <span
