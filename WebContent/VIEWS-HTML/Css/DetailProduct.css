@@ -50,7 +50,7 @@
 .DetailProduct_diferrence:hover {
     background-color: var(--hover-color);
     cursor: pointer;
-    color: ;
+    color: #000;
 }
 .DetailProduct_confirm{
     font-size: 15px;
