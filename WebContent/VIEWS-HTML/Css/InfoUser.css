@@ -1,0 +1,28 @@
+.InfoUser{
+    height: 430px;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 25px;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px 80px;
+    
+}
+.InfoUser-info{
+    font-size: 20px;
+    border-bottom: 1px double white;
+    padding-bottom: 20px;
+}
+.InfoUser-Button{
+    background-color: blue;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 1.8rem;
+    
+}
+.InfoUser-Button:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}

@@ -1,0 +1,81 @@
+.AddProduct{
+    height: 960px;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 25px;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px 80px 180px 250px;
+}
+.AddProduct-content{
+    font-size: 35px;
+    border-bottom: 1px ridge white;
+    padding-bottom: 10px;
+}
+.AddProduct-info{
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.AddProduct-info-text{
+    border: none;
+}
+.AddProduct-info-upload {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: none;
+}
+.AddProduct-info-upload:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+.AddProduct-info-delete:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+.AddProduct-info-delete{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: none;
+    float: left;
+}
+.AddProduct-info-fix{
+
+    display: grid;
+    grid-column: auto auto;
+    column-gap: 10px;
+}
+.AddProduct-info-show{
+    height: 150px;
+    width: 150px;
+    border: none;
+}
+.AddProduct-info-div{
+    display: grid;
+    grid-template-columns: 150px 300px;
+}
+
+.AddProduct-confirm{
+    float: right;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 1.8rem;
+    color: aliceblue;
+}
+.AddProduct-confirm:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+.AddProduct textarea{
+    height: 200px;
+    border: none;
+}
+
