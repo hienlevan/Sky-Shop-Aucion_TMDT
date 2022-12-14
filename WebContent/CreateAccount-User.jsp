@@ -45,12 +45,7 @@
 
 			<form method="get" class="container__create-account-form">
 				<div class="container__create-account-form-control">
-					<span> First Name : </span> <input type="text"
-						id="container__create-account-fname"> <small></small>
-				</div>
-
-				<div class="container__create-account-form-control">
-					<span> Last Name : </span> <input type="text"
+					<span> Full Name : </span> <input type="text"
 						id="container__create-account-lname"> <small></small>
 				</div>
 

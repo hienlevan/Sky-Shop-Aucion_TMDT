@@ -1,0 +1,41 @@
+.EditAccount{
+    height: 600px;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 25px;
+    display: grid;
+    grid-template-rows: 70px 80px 80px 80px 80px 80px 100px;
+}
+.EditAccount-content{
+    font-size: 40px;
+    border-bottom: 1px double white;
+    padding-bottom: 20px;
+}
+.EditAccount-info{
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border-bottom: 1px double white;
+    padding: 25px;
+}
+.EditAccount-Button{
+    background-color: green;
+
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 1.8rem;  
+}
+.EditAccount-Button:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+.EditAccount-node{
+    padding: 25px;
+    border: none;
+}
+.EditAccount-info-text{
+    border: none;
+}
